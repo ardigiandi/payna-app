@@ -10,24 +10,33 @@
       rel="stylesheet"
     />
     <link href="/src/style/main.css" rel="stylesheet" />
-    
+
     <!-- alpine.js -->
     <script src="//unpkg.com/alpinejs" defer></script>
   </head>
   <body>
     <!-- Ini Navbar -->
-     <div class="mx-auto max-w-6xl py-3 px-5 lg:px-0  bg-white lg:bg-transparent">
+    <div class="mx-auto max-w-6xl py-3 px-5 lg:px-0 bg-white lg:bg-transparent">
       <div class="flex flex-col lg:flex-row">
         <div
           class="flex justify-between items-center px-4 py-4 lg:py-0 border-b lg:border-b-0"
         >
           <div>
-            <svg width="151" height="42" viewBox="0 0 151 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M65.74 23.664V31H61.792V11.232H68.988C71.3213 11.232 73.076 11.792 74.252 12.912C75.4467 14.032 76.044 15.5533 76.044 17.476C76.044 19.3613 75.428 20.864 74.196 21.984C72.9827 23.104 71.2467 23.664 68.988 23.664H65.74ZM68.568 20.5C70.8827 20.5 72.04 19.492 72.04 17.476C72.04 16.4867 71.7693 15.7307 71.228 15.208C70.6867 14.6853 69.8 14.424 68.568 14.424H65.74V20.5H68.568ZM84.6844 15.292C85.9911 15.292 87.1111 15.6 88.0444 16.216C88.9777 16.832 89.6404 17.6627 90.0324 18.708V15.488H93.9524V31H90.0324V27.752C89.6404 28.7973 88.9777 29.6373 88.0444 30.272C87.1111 30.888 85.9911 31.196 84.6844 31.196C83.3777 31.196 82.2017 30.8787 81.1564 30.244C80.1111 29.6093 79.2897 28.6947 78.6924 27.5C78.1137 26.2867 77.8244 24.868 77.8244 23.244C77.8244 21.62 78.1137 20.2107 78.6924 19.016C79.2897 17.8027 80.1111 16.8787 81.1564 16.244C82.2017 15.6093 83.3777 15.292 84.6844 15.292ZM85.9164 18.736C84.6844 18.736 83.6951 19.1373 82.9484 19.94C82.2017 20.7427 81.8284 21.844 81.8284 23.244C81.8284 24.644 82.2017 25.7453 82.9484 26.548C83.6951 27.332 84.6844 27.724 85.9164 27.724C87.1111 27.724 88.0911 27.3227 88.8564 26.52C89.6404 25.6987 90.0324 24.6067 90.0324 23.244C90.0324 21.8627 89.6404 20.7707 88.8564 19.968C88.0911 19.1467 87.1111 18.736 85.9164 18.736ZM100.19 15.488L104.418 26.016L108.338 15.488H112.678L103.186 38.392H98.8183L102.318 30.552L95.7943 15.488H100.19ZM123.778 15.264C125.57 15.264 126.998 15.852 128.062 17.028C129.126 18.204 129.658 19.856 129.658 21.984V31H125.738V22.432C125.738 21.2 125.421 20.248 124.786 19.576C124.151 18.8853 123.283 18.54 122.182 18.54C121.062 18.54 120.166 18.904 119.494 19.632C118.822 20.36 118.486 21.4053 118.486 22.768V31H114.538V15.488H118.486V18.596C118.897 17.5507 119.569 16.7387 120.502 16.16C121.454 15.5627 122.546 15.264 123.778 15.264ZM139.208 15.292C140.515 15.292 141.635 15.6 142.568 16.216C143.501 16.832 144.164 17.6627 144.556 18.708V15.488H148.476V31H144.556V27.752C144.164 28.7973 143.501 29.6373 142.568 30.272C141.635 30.888 140.515 31.196 139.208 31.196C137.901 31.196 136.725 30.8787 135.68 30.244C134.635 29.6093 133.813 28.6947 133.216 27.5C132.637 26.2867 132.348 24.868 132.348 23.244C132.348 21.62 132.637 20.2107 133.216 19.016C133.813 17.8027 134.635 16.8787 135.68 16.244C136.725 15.6093 137.901 15.292 139.208 15.292ZM140.44 18.736C139.208 18.736 138.219 19.1373 137.472 19.94C136.725 20.7427 136.352 21.844 136.352 23.244C136.352 24.644 136.725 25.7453 137.472 26.548C138.219 27.332 139.208 27.724 140.44 27.724C141.635 27.724 142.615 27.3227 143.38 26.52C144.164 25.6987 144.556 24.6067 144.556 23.244C144.556 21.8627 144.164 20.7707 143.38 19.968C142.615 19.1467 141.635 18.736 140.44 18.736Z" fill="#070F18"/>
-              <rect y="4" width="48" height="34" rx="10" fill="#F5F6FB"/>
-              <circle cx="15" cy="21" r="6" fill="#207DFF"/>
-              <circle cx="33" cy="21" r="6" fill="#F06157"/>
-              </svg>
+            <svg
+              width="151"
+              height="42"
+              viewBox="0 0 151 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M65.74 23.664V31H61.792V11.232H68.988C71.3213 11.232 73.076 11.792 74.252 12.912C75.4467 14.032 76.044 15.5533 76.044 17.476C76.044 19.3613 75.428 20.864 74.196 21.984C72.9827 23.104 71.2467 23.664 68.988 23.664H65.74ZM68.568 20.5C70.8827 20.5 72.04 19.492 72.04 17.476C72.04 16.4867 71.7693 15.7307 71.228 15.208C70.6867 14.6853 69.8 14.424 68.568 14.424H65.74V20.5H68.568ZM84.6844 15.292C85.9911 15.292 87.1111 15.6 88.0444 16.216C88.9777 16.832 89.6404 17.6627 90.0324 18.708V15.488H93.9524V31H90.0324V27.752C89.6404 28.7973 88.9777 29.6373 88.0444 30.272C87.1111 30.888 85.9911 31.196 84.6844 31.196C83.3777 31.196 82.2017 30.8787 81.1564 30.244C80.1111 29.6093 79.2897 28.6947 78.6924 27.5C78.1137 26.2867 77.8244 24.868 77.8244 23.244C77.8244 21.62 78.1137 20.2107 78.6924 19.016C79.2897 17.8027 80.1111 16.8787 81.1564 16.244C82.2017 15.6093 83.3777 15.292 84.6844 15.292ZM85.9164 18.736C84.6844 18.736 83.6951 19.1373 82.9484 19.94C82.2017 20.7427 81.8284 21.844 81.8284 23.244C81.8284 24.644 82.2017 25.7453 82.9484 26.548C83.6951 27.332 84.6844 27.724 85.9164 27.724C87.1111 27.724 88.0911 27.3227 88.8564 26.52C89.6404 25.6987 90.0324 24.6067 90.0324 23.244C90.0324 21.8627 89.6404 20.7707 88.8564 19.968C88.0911 19.1467 87.1111 18.736 85.9164 18.736ZM100.19 15.488L104.418 26.016L108.338 15.488H112.678L103.186 38.392H98.8183L102.318 30.552L95.7943 15.488H100.19ZM123.778 15.264C125.57 15.264 126.998 15.852 128.062 17.028C129.126 18.204 129.658 19.856 129.658 21.984V31H125.738V22.432C125.738 21.2 125.421 20.248 124.786 19.576C124.151 18.8853 123.283 18.54 122.182 18.54C121.062 18.54 120.166 18.904 119.494 19.632C118.822 20.36 118.486 21.4053 118.486 22.768V31H114.538V15.488H118.486V18.596C118.897 17.5507 119.569 16.7387 120.502 16.16C121.454 15.5627 122.546 15.264 123.778 15.264ZM139.208 15.292C140.515 15.292 141.635 15.6 142.568 16.216C143.501 16.832 144.164 17.6627 144.556 18.708V15.488H148.476V31H144.556V27.752C144.164 28.7973 143.501 29.6373 142.568 30.272C141.635 30.888 140.515 31.196 139.208 31.196C137.901 31.196 136.725 30.8787 135.68 30.244C134.635 29.6093 133.813 28.6947 133.216 27.5C132.637 26.2867 132.348 24.868 132.348 23.244C132.348 21.62 132.637 20.2107 133.216 19.016C133.813 17.8027 134.635 16.8787 135.68 16.244C136.725 15.6093 137.901 15.292 139.208 15.292ZM140.44 18.736C139.208 18.736 138.219 19.1373 137.472 19.94C136.725 20.7427 136.352 21.844 136.352 23.244C136.352 24.644 136.725 25.7453 137.472 26.548C138.219 27.332 139.208 27.724 140.44 27.724C141.635 27.724 142.615 27.3227 143.38 26.52C144.164 25.6987 144.556 24.6067 144.556 23.244C144.556 21.8627 144.164 20.7707 143.38 19.968C142.615 19.1467 141.635 18.736 140.44 18.736Z"
+                fill="#070F18"
+              />
+              <rect y="4" width="48" height="34" rx="10" fill="#F5F6FB" />
+              <circle cx="15" cy="21" r="6" fill="#207DFF" />
+              <circle cx="33" cy="21" r="6" fill="#F06157" />
+            </svg>
           </div>
           <div>
             <button class="focus:outline-none text-black block lg:hidden">
@@ -50,7 +59,7 @@
           </div>
         </div>
 
-        <div 
+        <div
           class="flex justify-between w-full flex-col lg:flex-row py-4 lg:py-0"
         >
           <div class="flex w-full justify-center flex-col lg:flex-row">
@@ -62,10 +71,10 @@
           <div
             class="flex flex-col lg:flex-row text-center px-3 lg:px-4 my-auto py-2 border-b lg:border-none"
           >
-            <div class="py-3 lg:py-0 ">
+            <div class="py-3 lg:py-0">
               <a
                 href=""
-                class="block px-4 py-2 w-[98px] h-[48px] bg-grey rounded-full py-3 lg:py-3 text-center text-base "
+                class="block px-4 py-2 w-[98px] h-[48px] bg-grey rounded-full py-3 lg:py-3 text-center text-base"
                 >Register</a
               >
             </div>
@@ -78,158 +87,389 @@
     <!-- Ini Main Hero -->
     <section>
       <div class="max-w-6xl mx-auto lg:py-10">
-        <div class="grid grid-cols-12">
+        <div class="grid grid-cols-12 lg:px-9">
           <div class="col-span-12 lg:col-span-6 mt-8">
             <div class="py-2 mx-auto">
-              <h2 class="font-poppins font-bold px-5 text-[30px]">Manage Payroll
-                Like an Expert</h2>
+              <h2 class="font-poppins font-bold px-5 text-[30px]">
+                Manage Payroll Like an Expert
+              </h2>
             </div>
-              <div class="px-5">
-                <p>Payna is helping you to setting up
-                  the payroll without required any finance
-                  skills or knowledge before</p>
-              </div>
-              <div class="px-5 mt-8">
-                <div class="w-[180px] h-[48px] bg-blue-700 items-center text-center rounded-full">
+            <div class="px-5">
+              <p>
+                Payna is helping you to setting up the payroll without required
+                any finance skills or knowledge before
+              </p>
+            </div>
+            <div class="px-5 mt-8">
+              <div
+                class="w-[180px] h-[48px] bg-blue-700 hover:bg-blue-800 items-center text-center rounded-full"
+              >
                 <button class="py-3 text-white">Get Started</button>
-                </div>
               </div>
+            </div>
           </div>
           <div class="col-span-12 lg:col-span-6 mx-auto">
-            <div  class="">
-              <img src="img/image 3.png" alt="" class=" hidden lg:block lg:rounded-3xl lg:w-[520px] lg:h-[320px]"> 
+            <div class="">
+              <img
+                src="img/image 3.png"
+                alt=""
+                class="hidden lg:block lg:rounded-3xl lg:w-[520px] lg:h-[320px]"
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Ini Akhir Main Hero -->
-    
+
     <!-- Ini Sponsorship -->
-      <div class="max-w-6xl mx-auto py-5 lg:px-8 ">
-        <div class="col-span-12 ">
-          <div class="px-3 py-5 lg:flex lg:items-center">
-            <div>
-              <p class="font-bold text-base">Trusted by
-                Global Companies</p>
-            </div>
-            <div  class="text-center w-full ">
-              <div class="flex flex-wrap gap-3 lg:gap-10 py-5 lg:justify-end ">
-              <img src="img/apple-11 1.svg" alt="" class="w-[77px] h-[26px] ">
-                <img src="img/adobe.svg" alt="" class="w-[110px] h-[26px]">
-                <img src="img/slack-2 1.svg" alt="" class="w-[104px] h-[26px]">
-                <img src="img/spotify-1 1.svg" alt="" class="w-[88px] h-[26px]">
-                <img src="img/google-2015 1.svg" alt="" class="w-[80px] h-[26px]">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    <!-- Ini Akhir Sponsorship -->
-    
-    <!-- Ini Fill -->
-      <div class="py-5">
-        <div class="text-center max-w-6xl mx-auto px-5">
+    <div class="max-w-6xl mx-auto py-5 lg:px-8">
+      <div class="col-span-12">
+        <div class="px-3 py-5 lg:flex lg:items-center">
           <div>
-            <h2 class="text-orange-400 font-bold">WORK BETTER</h2>
+            <p class="font-bold text-base">Trusted by Global Companies</p>
           </div>
-          <div class="py-4">
-            <span class="text-[28px] font-bold">For Your Business</span>
+          <div class="text-center w-full">
+            <div class="flex flex-wrap gap-3 lg:gap-10 py-5 lg:justify-end">
+              <img src="img/apple-11 1.svg" alt="" class="w-[77px] h-[26px]" />
+              <img src="img/adobe.svg" alt="" class="w-[110px] h-[26px]" />
+              <img src="img/slack-2 1.svg" alt="" class="w-[104px] h-[26px]" />
+              <img src="img/spotify-1 1.svg" alt="" class="w-[88px] h-[26px]" />
+              <img
+                src="img/google-2015 1.svg"
+                alt=""
+                class="w-[80px] h-[26px]"
+              />
+            </div>
           </div>
-          <div class="">
-            <p>We did research what your company needs and here we are providing
-              all of them just for you</p>
-          </div>
-        </div> 
-        <div class="max-w-6xl mx-auto py-8 block lg:flex  justify-center gap-10 px-3 lg:px-0 mt-10  ">
-          <button class="w-[300px] h-[106px] bg-white flex py-5">
-            <div class="">
-              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="30" fill="#1F7CFF"/>
-                <path d="M38 25H22C20.8954 25 20 25.8954 20 27V37C20 38.1046 20.8954 39 22 39H38C39.1046 39 40 38.1046 40 37V27C40 25.8954 39.1046 25 38 25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M34 39V23C34 22.4696 33.7893 21.9609 33.4142 21.5858C33.0391 21.2107 32.5304 21 32 21H28C27.4696 21 26.9609 21.2107 26.5858 21.5858C26.2107 21.9609 26 22.4696 26 23V39" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div class="px-4">
-                <h2 class="font-bold text-left">Share Insights</h2>
-                <p class="py-3 text-left">Working together with your
-                  team to make decisions  </p>
-              </div>
-          </button>
-          <button class="w-[300px] h-[106px] bg-white flex my-5 lg:my-0 py-5">
-            <div class="">
-              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="30" fill="#1F7CFF"/>
-                <path d="M38 25H22C20.8954 25 20 25.8954 20 27V37C20 38.1046 20.8954 39 22 39H38C39.1046 39 40 38.1046 40 37V27C40 25.8954 39.1046 25 38 25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M34 39V23C34 22.4696 33.7893 21.9609 33.4142 21.5858C33.0391 21.2107 32.5304 21 32 21H28C27.4696 21 26.9609 21.2107 26.5858 21.5858C26.2107 21.9609 26 22.4696 26 23V39" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div class="px-4">
-                <h2 class="font-bold text-left">Share Insights</h2>
-                <p class="py-3 text-left">Working together with your
-                  team to make decisions  </p>
-              </div>
-          </button>
-          <button class="w-[300px] h-[106px] bg-white flex py-5">
-            <div class="">
-              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="30" fill="#1F7CFF"/>
-                <path d="M38 25H22C20.8954 25 20 25.8954 20 27V37C20 38.1046 20.8954 39 22 39H38C39.1046 39 40 38.1046 40 37V27C40 25.8954 39.1046 25 38 25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M34 39V23C34 22.4696 33.7893 21.9609 33.4142 21.5858C33.0391 21.2107 32.5304 21 32 21H28C27.4696 21 26.9609 21.2107 26.5858 21.5858C26.2107 21.9609 26 22.4696 26 23V39" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div class="px-4">
-                <h2 class="font-bold text-left">Share Insights</h2>
-                <p class="py-3 text-left">Working together with your
-                  team to make decisions  </p>
-              </div>
-          </button>
-        </div>
-        <div class="max-w-6xl py-0 lg:py-8 block lg:flex  justify-center gap-10 px-3 lg:px-0 mx-auto">
-          <button class="w-[300px] h-[106px] bg-white flex py-5">
-            <div class="">
-              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="30" fill="#1F7CFF"/>
-                <path d="M38 25H22C20.8954 25 20 25.8954 20 27V37C20 38.1046 20.8954 39 22 39H38C39.1046 39 40 38.1046 40 37V27C40 25.8954 39.1046 25 38 25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M34 39V23C34 22.4696 33.7893 21.9609 33.4142 21.5858C33.0391 21.2107 32.5304 21 32 21H28C27.4696 21 26.9609 21.2107 26.5858 21.5858C26.2107 21.9609 26 22.4696 26 23V39" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div class="px-4">
-                <h2 class="font-bold text-left">Share Insights</h2>
-                <p class="py-3 text-left">Working together with your
-                  team to make decisions  </p>
-              </div>
-          </button>
-          <button class="w-[300px] h-[106px] bg-white flex my-5 lg:my-0 py-5">
-            <div class="">
-              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="30" fill="#1F7CFF"/>
-                <path d="M38 25H22C20.8954 25 20 25.8954 20 27V37C20 38.1046 20.8954 39 22 39H38C39.1046 39 40 38.1046 40 37V27C40 25.8954 39.1046 25 38 25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M34 39V23C34 22.4696 33.7893 21.9609 33.4142 21.5858C33.0391 21.2107 32.5304 21 32 21H28C27.4696 21 26.9609 21.2107 26.5858 21.5858C26.2107 21.9609 26 22.4696 26 23V39" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div class="px-4">
-                <h2 class="font-bold text-left">Share Insights</h2>
-                <p class="py-3 text-left">Working together with your
-                  team to make decisions </p>
-              </div>
-          </button>
-          <button class="w-[300px] h-[106px] bg-white flex py-5">
-            <div class="">
-              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="30" fill="#1F7CFF"/>
-                <path d="M38 25H22C20.8954 25 20 25.8954 20 27V37C20 38.1046 20.8954 39 22 39H38C39.1046 39 40 38.1046 40 37V27C40 25.8954 39.1046 25 38 25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M34 39V23C34 22.4696 33.7893 21.9609 33.4142 21.5858C33.0391 21.2107 32.5304 21 32 21H28C27.4696 21 26.9609 21.2107 26.5858 21.5858C26.2107 21.9609 26 22.4696 26 23V39" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <div class="px-4">
-                <h2 class="font-bold text-left">Share Insights</h2>
-                <p class="py-3 text-left">Working together with your
-                  team to make decisions  </p>
-              </div>
-          </button>
         </div>
       </div>
-    <!-- Ini Akhir Fill -->
-  </body> 
+    </div>
+    <!-- Ini Akhir Sponsorship -->
+
+    <!-- Ini Fill -->
+    <div class="py-5">
+      <div class="text-center max-w-6xl mx-auto px-5">
+        <div>
+          <h2 class="text-orange-400 font-bold">WORK BETTER</h2>
+        </div>
+        <div class="py-4">
+          <span class="text-[28px] font-bold">For Your Business</span>
+        </div>
+        <div class="">
+          <p>
+            We did research what your company needs and here we are providing
+            all of them just for you
+          </p>
+        </div>
+      </div>
+      <!-- Ini Akhir Fill -->
+
+      <!-- options -->
+      <div
+        class="max-w-6xl mx-auto py-8 block lg:flex justify-center gap-10 px-3 lg:px-0 mt-10"
+      >
+        <button class="w-[300px] h-[106px] bg-white flex py-5">
+          <div class="">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="30" cy="30" r="30" fill="#1F7CFF" />
+              <path
+                d="M38 25H22C20.8954 25 20 25.8954 20 27V37C20 38.1046 20.8954 39 22 39H38C39.1046 39 40 38.1046 40 37V27C40 25.8954 39.1046 25 38 25Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M34 39V23C34 22.4696 33.7893 21.9609 33.4142 21.5858C33.0391 21.2107 32.5304 21 32 21H28C27.4696 21 26.9609 21.2107 26.5858 21.5858C26.2107 21.9609 26 22.4696 26 23V39"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="px-4">
+            <h2 class="font-bold text-left">Share Insights</h2>
+            <p class="py-3 text-left">
+              Working together with your team to make decisions
+            </p>
+          </div>
+        </button>
+        <button class="w-[300px] h-[106px] bg-white flex my-5 lg:my-0 py-5">
+          <div class="">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="30" cy="30" r="30" fill="#F75C4E" />
+              <path
+                d="M40 20L29 31"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40 20L33 40L29 31L20 27L40 20Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="px-4">
+            <h2 class="font-bold text-left">Track Leads</h2>
+            <p class="py-3 text-left">
+              See where your money goes and comes in business
+            </p>
+          </div>
+        </button>
+        <button class="w-[300px] h-[106px] bg-white flex py-5">
+          <div class="">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="30" cy="30" r="30" fill="#191046" />
+              <g clip-path="url(#clip0_1_88)">
+                <path
+                  d="M19 19L41 41"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M30 38H30.01"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M26.53 34.11C27.5452 33.3887 28.7597 33.0013 30.005 33.0013C31.2503 33.0013 32.4648 33.3887 33.48 34.11"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M34.72 29.06C35.5391 29.4597 36.305 29.9603 37 30.55"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M23 30.55C24.4821 29.3108 26.2659 28.4862 28.17 28.16"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.42 27C20.8072 25.7738 22.3977 24.7992 24.12 24.12"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M28.71 23.05C30.8524 22.8774 33.0076 23.1382 35.047 23.8168C37.0864 24.4955 38.9682 25.5781 40.58 27"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_88">
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(18 18)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="px-4">
+            <h2 class="font-bold text-left">Offline Mode</h2>
+            <p class="py-3 text-left">
+              Use the feature while off from internet? sure can
+            </p>
+          </div>
+        </button>
+      </div>
+      <div
+        class="max-w-6xl py-0 lg:py-8 block lg:flex justify-center gap-10 px-3 lg:px-0 mx-auto"
+      >
+        <button class="w-[300px] h-[106px] bg-white flex py-5">
+          <div class="">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="30" cy="30" r="30" fill="#FF1FB3" />
+              <path
+                d="M37 21H23C21.8954 21 21 21.8954 21 23V37C21 38.1046 21.8954 39 23 39H37C38.1046 39 39 38.1046 39 37V23C39 21.8954 38.1046 21 37 21Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M35 25H32V30H35V25Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M28 25H25V34H28V25Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="px-4">
+            <h2 class="font-bold text-left">Kanban Mode</h2>
+            <p class="py-3 text-left">
+              Organize the report that easy to be understand
+            </p>
+          </div>
+        </button>
+        <button class="w-[300px] h-[106px] bg-white flex my-5 lg:my-0 py-5">
+          <div class="">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="30" cy="30" r="30" fill="#5C4EF7" />
+              <path
+                d="M38 30V40H22V30"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40 25H20V30H40V25Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M30 40V25"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M30 25H34.5C35.163 25 35.7989 24.7366 36.2678 24.2678C36.7366 23.7989 37 23.163 37 22.5C37 21.837 36.7366 21.2011 36.2678 20.7322C35.7989 20.2634 35.163 20 34.5 20C31 20 30 25 30 25Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M30 25H25.5C24.837 25 24.2011 24.7366 23.7322 24.2678C23.2634 23.7989 23 23.163 23 22.5C23 21.837 23.2634 21.2011 23.7322 20.7322C24.2011 20.2634 24.837 20 25.5 20C29 20 30 25 30 25Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="px-4">
+            <h2 class="font-bold text-left">Reward System</h2>
+            <p class="py-3 text-left">
+              Motivate your team working harder and receive a gift
+            </p>
+          </div>
+        </button>
+        <button class="w-[300px] h-[106px] bg-white flex py-5">
+          <div class="">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="30" cy="30" r="30" fill="#F7954E" />
+              <path
+                d="M30 40C35.5228 40 40 35.5228 40 30C40 24.4772 35.5228 20 30 20C24.4772 20 20 24.4772 20 30C20 35.5228 24.4772 40 30 40Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M20 30H40"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M30 20C32.5013 22.7384 33.9228 26.292 34 30C33.9228 33.708 32.5013 37.2616 30 40C27.4987 37.2616 26.0772 33.708 26 30C26.0772 26.292 27.4987 22.7384 30 20V20Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="px-4">
+            <h2 class="font-bold text-left">189 Country</h2>
+            <p class="py-3 text-left">
+              Working together worldwide people from anywhere
+            </p>
+          </div>
+        </button>
+      </div>
+    </div>
+    <!--Ini Akhir Options -->
+
+    <!-- Ini Video -->
+      <div class="max-w-6xl mx-auto my-16 lg:my-28 px-6">
+        <div  class="grid grid-cols-12">
+          <div class="col-span-12 lg:col-span-7">
+            <div class="">
+              <img src="img/video.png" alt="" class="w-[500px] h-[300px]">
+            </div>
+          </div>
+          <div class="col-span-12 lg:col-span-5">
+
+          </div>
+        </div>
+      </div>
+    <!-- Ini Akhir Video -->
+  </body>
 </html>
